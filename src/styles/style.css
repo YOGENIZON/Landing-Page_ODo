@@ -1,0 +1,233 @@
+.text-main {
+  color: #1563ab !important;
+}
+.text-second {
+  color: #31A14E !important;
+}
+.primary-bg-soft {
+  background-color: #ddede2 !important;
+}
+.primary-bg {
+  background: #1563ab !important;
+}
+.secondary-bg {
+  background: #31A14E !important;
+}
+.sub-heading {
+  color: #31A14E !important;
+}
+.sub-h3 {
+  color: black !important;
+}
+.sub-h3:hover {
+  color: #1563ab !important;
+  text-decoration: underline;
+}
+.mail a {
+  color: rgb(85, 79, 79) !important;
+}
+
+.mail a:hover {
+  color: rgb(61, 61, 202) !important;
+}
+
+.bg-grays {
+  background-color: #e0e7ef !important;
+}
+.special-label {
+  display: none !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.link h3:hover,
+.link:hover h4 {
+  color: #1563ab !important;
+}
+section h3 {
+  color: #1563ab !important;
+}
+
+section h1 {
+  font-size: 34px !important;
+  color: #1563ab !important;
+}
+section h2 {
+  font-size: 32px !important;
+  color: #1563ab !important;
+}
+h2 span {
+  font-size: 32px !important;
+  letter-spacing: 0px;
+  color: #343f52 !important;
+}
+h1 span {
+  font-size: 34px !important;
+  letter-spacing: 0px;
+  color: #343f52 !important;
+}
+.sub-h2 {
+  color: #f7f7f7;
+}
+.sub-head {
+  color: #1563ab !important;
+}
+.breadcrumbs {
+  position: relative;
+  color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.breadcrumbs .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1563ab6b;
+  background: #d5e7f7;
+  z-index: 1;
+}
+
+.breadcrumbs .box {
+  position: relative;
+  z-index: 2;
+}
+.breadcrumbs p {
+  color: #1563ab !important;
+}
+.widget-title {
+  color: rgb(0, 0, 0) !important;
+}
+.nav-link:hover {
+  color: #1563ab !important;
+}
+.navlink .active {
+  color: #1563ab !important;
+}
+link .show {
+  color: #1563ab !important;
+}
+.navbar-nav .nav-link .activate {
+  color: #1563ab !important;
+}
+.nav-link :hover ::before {
+  color: #1563ab !important;
+}
+.navbar-nav {
+  --bs-nav-link-hover-color: #1563ab !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #1563ab !important;
+}
+
+.sticky-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+.is-sticky .navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-clone {
+  top: 62px !important;
+}
+.video-container video {
+  width: 100%;
+  height: 85%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -3;
+}
+.video-container .overlay {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hero-bg {
+  background-color: rgba(15, 15, 15, 0.5);
+}
+.card {
+  transition: 0.3s all;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.contact-form .card:hover {
+  transform: translateY(0px);
+}
+.widget ul li a:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.cta h2 {
+  background-color: #ffff !important;
+}
+
+.bg-lights {
+  background-color: #f7f7f7 !important;
+}
+
+.bg-secondary-lt {
+  background-color: #d0e0ee;
+}
+.secondary-fill {
+  fill: #1563ab;
+}
+
+#tst-h2 {
+  background-color: #bdefcf !important;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+.widget .footer-links:hover {
+  color: #1563ab !important;
+}
+
+.text-inverse,
+.link-inverse,
+.text-inverse a:not(.btn) {
+  color: #1563ab !important;
+}
+
+.d-header {
+  font-weight: bolder !important;
+  color: #1563ab !important;
+  font-size: medium !important;
+}
+.border-10 {
+  border-width: 10px !important;
+}
+
+.icons {
+  font-size: 40px !important;
+  color: #fff !important;
+}
+
+.image {
+  max-width: 77% !important;
+}
+.navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
+  background-color: #31A14E !important;
+}
+.navbar-brand img {
+  width: 230px !important;
+}
+
+.img-bg {
+  background-color: #e5f0ff !important;
+}

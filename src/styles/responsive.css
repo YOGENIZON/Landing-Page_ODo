@@ -1,0 +1,101 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .cta-cards {
+    min-height: 215px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cta-cards {
+    min-height: 230px !important;
+  }
+  .treatment-img-bg {
+    height: 75% !important;
+    left: 4rem !important;
+    bottom: 4.5rem !important;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .image {
+    max-width: 100% !important;
+  }
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    color: #1563ab !important;
+  }
+  .navbar-expand-lg .navbar-collapse .nav-link {
+    color: #1563ab !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .cta-cards {
+    min-height: 240px !important;
+  }
+  .treatment-img-bg {
+    width: 87% !important;
+    height: 95% !important;
+    left: -1.5rem !important;
+    bottom: -1.8rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .navbar-clone {
+    top: 0px !important;
+  }
+
+  .sticky-wrapper {
+    position: relative !important;
+  }
+  .hero {
+    background-image: url('/img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .hero-text {
+    max-width: 100% !important;
+    align-items: end;
+    justify-content: center;
+  }
+  .hero-text h1 {
+    font-size: 20px !important;
+  }
+  .hero-text h3 {
+    font-size: 18px !important;
+  }
+  .hero-text p {
+    font-size: 16px !important;
+  }
+  .hero-text .btn {
+    padding: 8px !important;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    text-align: center;
+  }
+  img,
+  svg {
+    vertical-align: bottom !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-cards {
+    text-align: center !important;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 340px) and (max-width: 575px) {
+  .extra-sub {
+    margin-bottom: -4rem !important;
+  }
+}
