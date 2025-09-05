@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1># ENTRova – ENT Specialist Doctor & Clinic React/Next.js Template</h1>
 
 <p>ENTRova is a professional and modern React/Next.js template built exclusively for ENT specialists, otolaryngologists, hearing clinics, and medical centers. Designed with precision, ENTRova delivers a clean, intuitive user experience that helps healthcare professionals build a powerful online presence with ease.</p>
@@ -166,3 +167,6 @@ yarn lint
 </code></pre>
   </li>
 </ul>
+=======
+# Landing-Page_ODo
+>>>>>>> 6a7897bc69e0b73bf4b2e733bdf46553a0767ea8
