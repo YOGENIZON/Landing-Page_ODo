@@ -57,7 +57,7 @@ const Surgeries = () => {
                       <figure className="card-img-top">
                         <Image
                           src={item.sec1Img}
-                          alt={`${item.title} | ENTrova`}
+                          alt={`${item.title}`}
                           layout="fill"
                           className="position-static"
                         />
@@ -66,7 +66,6 @@ const Surgeries = () => {
                       <div className="card-body px-5 py-4 d-flex flex-column align-items-center">
                         <h3 className='text-center'>{item.title}</h3>
                         <p className="mx-1 text-center">{item.cardDescription}</p>
-                        <NextLink title="Learn More" href={item.url} className="btn btn-md text-white secondary-bg rounded mb-5" />
                       </div>
                     </div>
                   </div>

@@ -16,10 +16,10 @@ const NotFound = () => {
           <div className="container pt-12 pt-md-14 pb-14 pb-md-16">
             <div className="row">
               <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">
-                <h1 className="mb-3">Oops! Page Not Found.</h1>
+                <h1 className="mb-3">¡Ups! Página no encontrada.</h1>
                 <p className="lead mb-7 px-md-12 px-lg-5 px-xl-7">
-                  The page you are looking for is not available or has been moved. Try a different page or go to
-                  homepage with the button below.
+                  La página que busca no está disponible o vaya a la página
+                  principal con el botón de abajo.
                 </p>
               </div>
             </div>

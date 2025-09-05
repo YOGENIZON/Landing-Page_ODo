@@ -47,27 +47,27 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ENTrova - ENT Hospital Website Template</title>
+        <title>Monest Dental Clinic</title>
         <meta
           name="description"
           content=""
         />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="ENTrova - ENT Hospital Website Template" />
+        <meta property="og:title" content="Monest Dental Clinic" />
         <meta
           property="og:description"
           content=""
         />
         <meta property="og:url" content="https://entrova.com/" />
         <meta property="og:image" content="https://entrova.com/img/logo.png" />
-        <meta property="og:image:secure_url" content="https://entrova.com/logo.png" />
+        <meta property="og:image:secure_url" content="/img/logo.png" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="ENTrova - ENT Hospital Website Template" />
+        <meta name="twitter:title" content="Monest Dental Clinic" />
         <meta
           name="twitter:description"
           content=""
         />
-        <meta name="twitter:image" content="https://entrova.com/img/logo.png" />
+        <meta name="twitter:image" content="/img/logo.png" />
         {/* <meta name="google-site-verification" content="*************************" /> */}
       </Head>
 

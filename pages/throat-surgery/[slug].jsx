@@ -29,7 +29,6 @@ const ThroatSurgeries = () => {
     }
   }, [slug, router]);
   const slugToMatch = slug;
-  const matchedSurgery = throatSurgery.find((surgeries) => surgeries.url === slugToMatch);
   const canonicalUrl = `https://entrova.com/throat-surgery/${slug}`;
   const defaultSurgery = throatSurgery[0];
   const surgeries = matchedSurgery || defaultSurgery;
@@ -74,7 +73,7 @@ const ThroatSurgeries = () => {
                   />
                   <Image
                     src={surgeries.sec1Img}
-                    alt={`${surgeries.sec1Heading} | ENTrova`}
+                    alt={`${surgeries.sec1Heading}`}
                     layout="fill"
                     className="position-relative z-2 image"
                   />
@@ -152,7 +151,7 @@ const ThroatSurgeries = () => {
                         <figure className="card-img-top ">
                           <Image
                             src={item.sec1Img}
-                            alt={`${item.title} | ENTrova`}
+                            alt={`${item.title}`}
                             layout="fill"
                             className="position-static"
                           />

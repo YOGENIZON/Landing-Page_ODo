@@ -11,7 +11,7 @@ const ContactUs = () => {
     <Fragment>
       <PageProgress />
       <Head>
-        <title>ENTrova - ENT Hospital Website Template</title>
+        <title>Monest Dental Clinic</title>
         <meta
           name="description"
           content=""
