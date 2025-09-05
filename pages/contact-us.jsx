@@ -3,7 +3,6 @@ import { Breadcrumb } from 'react-bootstrap';
 import PageProgress from 'components/PageProgress';
 import Link from 'next/link';
 import ContactForm1 from 'components/ContactForm1';
-import CTA1 from 'components/CTA1';
 import Head from 'next/head';
 
 const ContactUs = () => {
@@ -32,7 +31,7 @@ const ContactUs = () => {
           <ContactForm1 />
         </section>
         <section className="wrapper bg-black ">
-          <CTA1 />
+
         </section>
         <section>
           <iframe

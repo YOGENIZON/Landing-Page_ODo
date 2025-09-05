@@ -1,16 +1,10 @@
 import { Fragment, useRef, useState } from 'react'; // -------- custom hook -------- //
 import { useRouter } from 'next/router';
 import useSticky from 'hooks/useSticky';
-import useNestedDropdown from 'hooks/useNestedDropdown'; // -------- custom component -------- //
 import Image from 'next/image.js';
 import NextLink from './NextLink';
 import SocialLinks from './SocialLinks';
-import ListItemLink from './ListItemLink';
-import DropdownToggleLink from './DropdownToggleLink';
-import { surgery } from '../data.js';
-import Link from 'next/link';
 
-import { treatments, aboutUs } from '../data.js';
 const Navbar = (props) => {
   const { navClassName, navOtherClass, fancy, stickyBox, logoAlt } = props;
 
@@ -26,15 +20,6 @@ const Navbar = (props) => {
   const fixedClassName = 'navbar navbar-expand-lg center-nav transparent navbar-light navbar-clone fixed'; // render inner nav item links
  // all main header contents
 
-  const handleSurgeryDropdown = () => {
-    setOpenSurgery(!openSurgery);
-  };
-
-  const handleTreatments = () => {
-    router.push('/ent-treatment-location');
-  };
-
-  
 
   const handleEarSurgery = () => {
     setNoseSurgery(false);
@@ -64,40 +49,6 @@ const Navbar = (props) => {
     setHeadAndNeckSurgery(true);
   };
 
-  const handleAboutUs = () => {
-    router.push('/about-us');
-  };
-
-  const surgeryMenu = [
-    {
-      id: 1,
-      title: 'Ear Surgery',
-      url: '/best-ear-hospital-location',
-      onMouseEnter: handleEarSurgery,
-      action: earSurgery
-    },
-    {
-      id: 2,
-      title: 'Nose Surgery',
-      url: '/best-nose-hospital-location',
-      onMouseEnter: handleNoseSurgery,
-      action: noseSurgery
-    },
-    {
-      id: 3,
-      title: 'Throat Surgery',
-      url: '/best-throat-hospital-location',
-      onMouseEnter: handleThroatSurgery,
-      action: throatSurgery
-    },
-    {
-      id: 4,
-      title: 'Head & Neck Surgery',
-      url: '/head-and-neck-surgery-hospital-location',
-      onMouseEnter: handleHeadandNeckSurgery,
-      action: headAndNeckSurgery
-    }
-  ];
 
   const headerContent = (
     <Fragment>

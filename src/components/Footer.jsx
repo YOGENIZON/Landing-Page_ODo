@@ -8,7 +8,6 @@ const widget = (list, title) => {
   return (
     <div className="widget">
       <h3 className="widget-title fs-20 mb-3">{title}</h3>
-      
     </div>
   );
 };
@@ -29,39 +28,42 @@ const Footer = () => {
                   height={100}
                   className="text-center"
                   style={{
-                    width:'100%',
-                    height:'100%'
+                    width: '100%',
+                    height: '100%'
                   }}
                 />
               </div>
               <div className="widget">
                 <div className="d-flex mb-1 align-items-start">
                   <i className="uil uil-location-pin-alt fs-26" />
-                  <address className=" ms-2 m-0 mt-1" >
+                  <address className=" ms-2 m-0 mt-1">
                     Plaza Jarabacoa, Marginal Nte., Santo Domingo Este 11506, Dominican Republic
                   </address>
                 </div>
-                <div className="d-flex mb-1 align-items-center" >
+                <div className="d-flex mb-1 align-items-center">
                   <i className="uil uil-envelope fs-26" />
                   <Link href="mailto:contact@example.com" className="link-body ms-2">
                     info@monestdental.com
                   </Link>
                 </div>
-                <div className="d-flex align-items-center mb-1" >
+                <div className="d-flex align-items-center mb-1">
                   <i className="uil uil-phone-volume fs-26" />
                   <p className=" m-0 ms-2 fs-16">
                     <Link href="tel:+1 (849)-507-8787">(849)-507-8787</Link>
-                  </p>  
+                  </p>
                 </div>
               </div>
             </div>
-              <div className="d-flex flex-column">
-                <h3 className="fs-20">Conéctese con nosotros</h3>
-                <SocialLinks className="nav social " />
-              </div>
+            <div className="d-flex flex-column">
+              <h3 className="fs-20">Conéctese con nosotros</h3>
+              <SocialLinks className="nav social " />
+            </div>
           </div>
 
-          <div className="col-sm-6 col-md-4 col-lg-2 mt-md-5 mt-lg-0 mt-10 ms-0 ms-md-5">{widget(aboutUsFooter, 'Horario')}</div>
+          <div className="col-sm-6 col-md-4 col-lg-2 mt-md-5 mt-lg-0 mt-10 ms-0 ms-md-5">
+            {widget(aboutUsFooter, 'Horario')} Lunes 08:00 – 17:00 Martes 08:00 – 17:00 Miércoles 08:00 – 17:00 Jueves
+            – Cerrado Viernes 08:00 – 17:00 Sábado 08:00 – 17:00 Domingo – Cerrado
+          </div>
           <div className=" col-lg-3 mt-md-5 mt-lg-0 mt-10 ">
             <div className="widget">
               <h3 className="widget-title fs-20 mb-3">Ubicación</h3>
@@ -80,10 +82,7 @@ const Footer = () => {
         <hr className="mt-4 mt-md-4 mb-3" />
 
         <div className="d-md-flex align-items-center justify-content-center">
-          <p className="mb-2 mb-lg-0 ">
-            © {currentYear} Monest Dental Clinic {' '}
-           
-          </p>
+          <p className="mb-2 mb-lg-0 ">© {currentYear} Monest Dental Clinic </p>
         </div>
       </div>
     </footer>

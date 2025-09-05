@@ -1,4 +1,3 @@
-import color from 'utils/color';
 
 export const surgeryList = [
   {
@@ -57,6 +56,7 @@ export const aboutUsFooter = [
     title: 'Sobre Nosotros',
     url: '/about-us'
   },
+  
 ];
 
 
