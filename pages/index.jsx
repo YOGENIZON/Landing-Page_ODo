@@ -5,7 +5,6 @@ import Hero from 'components/Hero';
 import About from 'components/About';
 import About2 from 'components/About2';
 import Services from 'components/Services';
-import Services1 from 'components/Services1';
 import CTA2 from 'components/CTA2';
 import CTA from 'components/CTA';
 import Testimonial from 'components/Testimonial';
@@ -17,9 +16,9 @@ const Home = () => {
     <Fragment>
       <PageProgress />
       <Head>
-        <title>ENTrova - ENT Hospital Website Template</title>
+        <title>Monest Dental Clinic</title>
         <meta name="description" content="" />
-        <link rel="canonical" href="https://entrova.com" />
+        <link rel="canonical" href="" />
       </Head>
       <main className="content-wrapper overflow-hidden">
         <Hero />
@@ -36,15 +35,10 @@ const Home = () => {
           </div>
         </section>
         <section className="wrapper bg-light pt-10 pt-md-14">
-          <div className="container ">
+          <div className="container mt-14 mt-md-16">
             <div className="col-md-10  col-lg-8  ">
-              <p className="fs-80 fw-bolder sub-h2 position-relative ">Surgeries</p>
-              <h2 className="display-5 mb-16 fw-bold z-1 mt-n15 mt-md-n16 mt-lg-n17 sub-head">
-                ENT Surgery in Location
-                <span
-                  className="ms-2"
-                  style={{ borderBottom: '3px solid #D8D8D8', display: 'inline-block', width: '30px', height: '0px' }}
-                ></span>
+              <h2 className="display-5 mb-16 fw-bold z-1 mt-n10 mt-sm-n15 mt-md-n16 mt-lg-n70 sub-head">
+              Nuestras Especialidades
               </h2>
             </div>
             <Services />
@@ -76,13 +70,10 @@ const Home = () => {
         <section className="wrapper bg-light shadow-lg  mb-n10">
           <div className="container py-14">
             <div className="col-md-10  col-lg-8  ">
-              <p className="fs-80 fw-bolder sub-h2 position-relative "> Hospital</p>
+              <p className="fs-80 fw-bolder sub-h2 position-relative "> Monest</p>
               <h2 className="display-5 mb-16 fw-bold z-1 mt-n15 mt-md-n16 mt-lg-n17 sub-head">
                 Nuestra Instalaciones
-                <span
-                  className="ms-2"
-                  style={{ borderBottom: '3px solid #D8D8D8', display: 'inline-block', width: '30px', height: '0px' }}
-                ></span>
+               
               </h2>
             </div>
             <Gallery images={homeGallery} />

@@ -10,7 +10,7 @@ const Gallery = ({ images, target }) => {
           <div className={`project item col-md-6 col-lg-4 col-xxl-3 `} key={id}>
             <figure className="rounded">
               <Link href={image} data-glightbox data-gallery="shots-group" target={target ? '_blank' : ''}>
-                <Image src={image} alt={`${alt} | ENTrova`} layout="fill" className="position-static" />
+                <Image src={image} alt={`${alt}`} layout="fill" className="position-static" />
                 {caption && <h3 className='text-center mt-1'>{caption}</h3>}
                 <span className="bg" />
               </Link>

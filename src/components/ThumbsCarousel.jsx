@@ -77,7 +77,7 @@ const ThumbsCarousel = () => {
                 width={500}
                 height={300}
                 src={url}
-                alt={`${alt} | ENTrova`}
+                alt={`${alt}`}
                 loading="lazy"
               />
             </figure>
@@ -118,7 +118,7 @@ const ThumbsCarousel = () => {
               width={100}
               height={100}
               src={url}
-              alt={`${alt} | ENTrova`}
+              alt={`${alt}`}
               style={{ width: '100%', height: 'auto' }}
               loading="lazy"
             />

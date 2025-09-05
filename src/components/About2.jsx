@@ -20,11 +20,7 @@ Desde procedimientos preventivos hasta tratamientos especializados, nos aseguram
         </p>
 
         {/* CTA Button */}
-        <NextLink
-          title="Descubre mas"
-          href="/about-us"
-          className="btn btn-md text-white secondary-bg rounded mb-5"
-        />
+        
       </div>
 
       {/* Visual Tiles */}

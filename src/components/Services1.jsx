@@ -21,7 +21,7 @@ const Services1 = () => {
  
               <Image
                 src={`/img/home/advance-ent-care-facilities.webp`}
-                alt={`Advanced ENT Care Facilities | ENTrova`}
+                alt={`Advanced ENT Care Facilities`}
                 width={500}
                 height={400}
                 className="position-static"

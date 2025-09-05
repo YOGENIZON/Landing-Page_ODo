@@ -51,7 +51,7 @@ const Banner = ({ alt, imageName, btnColor = 'danger', video = false, showShape 
 
         <Image
           src={imageName}
-          alt={`${alt} | ENTrova`}
+          alt={`${alt}`}
           width={500}
           height={400}
           className="position-relative z-2"

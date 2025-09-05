@@ -14,7 +14,7 @@ const Tiles = () => {
             <figure className="rounded">
               <Image
                 src={filename}
-                alt={`${filename} | ENTrova`}
+                alt={`${filename}`}
                 width={500}
                 height={400}
                 className="position-static"

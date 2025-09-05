@@ -2,8 +2,6 @@ import { Fragment } from 'react';
 import { Breadcrumb } from 'react-bootstrap';
 import PageProgress from 'components/PageProgress';
 import Link from 'next/link';
-import ContactForm1 from 'components/ContactForm1';
-import CTA1 from 'components/CTA1';
 import Head from 'next/head';
 
 const ContactUs = () => {
@@ -11,7 +9,7 @@ const ContactUs = () => {
     <Fragment>
       <PageProgress />
       <Head>
-        <title>ENTrova - ENT Hospital Website Template</title>
+        <title>Monest Dental Clinic</title>
         <meta
           name="description"
           content=""
@@ -29,10 +27,9 @@ const ContactUs = () => {
       </Breadcrumb>
       <main className="content-wrapper overflow-hidden">
         <section className="wrapper bg-light ">
-          <ContactForm1 />
         </section>
         <section className="wrapper bg-black ">
-          <CTA1 />
+
         </section>
         <section>
           <iframe
