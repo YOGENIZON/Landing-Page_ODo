@@ -2,7 +2,6 @@ import { Fragment } from 'react';
 import { Breadcrumb } from 'react-bootstrap';
 import PageProgress from 'components/PageProgress';
 import Link from 'next/link';
-import ContactForm1 from 'components/ContactForm1';
 import Head from 'next/head';
 
 const ContactUs = () => {
@@ -28,7 +27,6 @@ const ContactUs = () => {
       </Breadcrumb>
       <main className="content-wrapper overflow-hidden">
         <section className="wrapper bg-light ">
-          <ContactForm1 />
         </section>
         <section className="wrapper bg-black ">
 
